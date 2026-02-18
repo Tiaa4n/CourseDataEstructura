@@ -1,59 +1,69 @@
 public class Moto {
-   
-    private int Modelo;
-    private String Marca;
-    private String Color;
-    private double Cilindraje;
-    private double Precio;
-    public Moto(int Modelo, String Marca, String Color, double Cilindraje, double Precio) {
-        this.Modelo = Modelo;
-        this.Marca = Marca;
-        this.Color = Color;
-        this.Cilindraje = Cilindraje;
-        this.Precio = Precio;
+    //Atributos
+    private int modelo;
+    private String marca;
+    private String color;
+    private double cilindraje;
+    private double precio;
+    
+    public Moto(int modelo, String marca, String color, double cilindraje, double precio) {
+        this.modelo = modelo;
+        this.marca = marca;
+        this.color = color;
+        this.cilindraje = cilindraje;
+        this.precio = precio;
     }
+
     public int getModelo() {
-        return Modelo;
+        return modelo;
     }
-    public void setModelo(int Modelo) {
-        this.Modelo = Modelo;
+
+    public void setModelo(int modelo) {
+        this.modelo = modelo;
     }
+
     public String getMarca() {
-        return Marca;
+        return marca;
     }
+
     public void setMarca(String marca) {
-        this.Marca = marca;
+        this.marca = marca;
     }
+
     public String getColor() {
-        return Color;
+        return color;
     }
+
     public void setColor(String color) {
-        this.Color = color;
+        this.color = color;
     }
+
     public double getCilindraje() {
-        return Cilindraje;
+        return cilindraje;
     }
+
     public void setCilindraje(double cilindraje) {
-        this.Cilindraje = cilindraje;
+        this.cilindraje = cilindraje;
     }
+
     public double getPrecio() {
-        return Precio;
+        return precio;
     }
+
     public void setPrecio(double precio) {
-        this.Precio = precio;
+        this.precio = precio;
     }
 
     public String realizarMantenimiento(String mtto){
-        return"Mantenimiento realizado fue " + mtto;
+        return "Mantenimiento realizado fue " + mtto;
     }
-    
+
     @Override
     public String toString() {
-        return "Moto [modelo=" + Modelo + ", marca=" + Marca + ", color=" + Color + ", cilindraje=" + Cilindraje
-                + ", precio=" + Precio + "]";
+        return "Moto [modelo=" + modelo + ", marca=" + marca + ", color=" + color + ", cilindraje=" + cilindraje
+                + ", precio=" + precio + "]";
     }
     
-    
+}
     
 
-}

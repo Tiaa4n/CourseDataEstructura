@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ejercicio3 {
+public class Ejer3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese N: ");
