@@ -1,0 +1,28 @@
+import java.util.*;
+
+public class Ejercicio13 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int[] A=new int[n];
+        double suma=0;
+
+        for(int i=0;i<n;i++){
+            A[i]=sc.nextInt();
+            suma+=A[i];
+        }
+
+        double media=suma/n;
+        ArrayList<Integer> mayores=new ArrayList<>();
+        ArrayList<Integer> menores=new ArrayList<>();
+
+        for(int i=0;i<n;i++){
+            if(A[i]>media) mayores.add(A[i]);
+            else if(A[i]<media) menores.add(A[i]);
+        }
+
+        System.out.println("Media: "+media);
+        System.out.println("Mayores: "+mayores);
+        System.out.println("Menores: "+menores);
+    }
+}

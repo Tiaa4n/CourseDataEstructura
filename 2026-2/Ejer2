@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Ejercicio2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Ingrese cantidad de empleados: ");
+        int n = sc.nextInt();
+
+        double[] sueldo = new double[n];
+        double[] asignacion = new double[n];
+        double[] deduccion = new double[n];
+        double[] neto = new double[n];
+
+        for (int i = 0; i < n; i++) {
+            System.out.println("Empleado " + (i+1));
+            System.out.print("Sueldo: ");
+            sueldo[i] = sc.nextDouble();
+            System.out.print("Asignaciones: ");
+            asignacion[i] = sc.nextDouble();
+            System.out.print("Deducciones: ");
+            deduccion[i] = sc.nextDouble();
+
+            neto[i] = sueldo[i] + asignacion[i] - deduccion[i];
+        }
+
+        for (int i = 0; i < n; i++) {
+            System.out.println("Neto empleado " + (i+1) + ": " + neto[i]);
+        }
+    }
+}
