@@ -1,46 +1,46 @@
-public class moto {
+public class Moto {
    
-    private int modelo;
-    private String marca;
-    private String color;
-    private double cilindraje;
-    private double precio;
-    public moto(int modelo, String marca, String color, double cilindraje, double precio) {
-        this.modelo = modelo;
-        this.marca = marca;
-        this.color = color;
-        this.cilindraje = cilindraje;
-        this.precio = precio;
+    private int Modelo;
+    private String Marca;
+    private String Color;
+    private double Cilindraje;
+    private double Precio;
+    public Moto(int Modelo, String Marca, String Color, double Cilindraje, double Precio) {
+        this.Modelo = Modelo;
+        this.Marca = Marca;
+        this.Color = Color;
+        this.Cilindraje = Cilindraje;
+        this.Precio = Precio;
     }
     public int getModelo() {
-        return modelo;
+        return Modelo;
     }
-    public void setModelo(int modelo) {
-        this.modelo = modelo;
+    public void setModelo(int Modelo) {
+        this.Modelo = Modelo;
     }
     public String getMarca() {
-        return marca;
+        return Marca;
     }
     public void setMarca(String marca) {
-        this.marca = marca;
+        this.Marca = marca;
     }
     public String getColor() {
-        return color;
+        return Color;
     }
     public void setColor(String color) {
-        this.color = color;
+        this.Color = color;
     }
     public double getCilindraje() {
-        return cilindraje;
+        return Cilindraje;
     }
     public void setCilindraje(double cilindraje) {
-        this.cilindraje = cilindraje;
+        this.Cilindraje = cilindraje;
     }
     public double getPrecio() {
-        return precio;
+        return Precio;
     }
     public void setPrecio(double precio) {
-        this.precio = precio;
+        this.Precio = precio;
     }
 
     public String realizarMantenimiento(String mtto){
@@ -49,8 +49,8 @@ public class moto {
     
     @Override
     public String toString() {
-        return "moto [modelo=" + modelo + ", marca=" + marca + ", color=" + color + ", cilindraje=" + cilindraje
-                + ", precio=" + precio + "]";
+        return "Moto [modelo=" + Modelo + ", marca=" + Marca + ", color=" + Color + ", cilindraje=" + Cilindraje
+                + ", precio=" + Precio + "]";
     }
     
     

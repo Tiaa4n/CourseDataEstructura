@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class arreglo {
+public class Arreglo {
     public static void main(String[] args) throws Exception {
 
         int[] a = { 2, 6, 8, 1, 20, 40, 7, 3, 5 };
