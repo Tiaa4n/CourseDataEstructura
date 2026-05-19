@@ -1,0 +1,22 @@
+package com.universidad.model;
+
+public class Profesor extends Persona {
+
+    private String departamento;
+
+    public Profesor(String nombre,
+                     String id,
+                     String email,
+                     String departamento) {
+
+        super(nombre, id, email);
+
+        this.departamento = departamento;
+    }
+
+    @Override
+    public void mostrarInformacion() {
+
+        System.out.println(nombre + " - " + departamento);
+    }
+}
