@@ -1,9 +1,5 @@
 
 
-
-import com.universidad.model.Estudiante;
-import com.universidad.service.EstudianteService;
-
 import java.util.Scanner;
 
 public class Main {

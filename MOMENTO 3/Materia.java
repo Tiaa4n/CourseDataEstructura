@@ -1,4 +1,4 @@
-package com.universidad.model;
+
 
 import java.util.LinkedList;
 import java.util.Queue;

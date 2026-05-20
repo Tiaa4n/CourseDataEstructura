@@ -1,4 +1,4 @@
-package com.universidad.model;
+
 
 public abstract class Persona {
 

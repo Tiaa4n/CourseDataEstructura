@@ -1,5 +1,4 @@
 
-import com.universidad.model.SolicitudInscripcion;
 
 import java.util.Queue;
 import java.util.ArrayDeque;
